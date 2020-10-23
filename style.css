@@ -1,0 +1,48 @@
+/*
+Abdul Hadi
+GitHub: https://github.com/abdulhadicse/
+*/
+
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+body{
+    background-color: #F1F5F8;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    min-height: 90vh;
+    display: grid;
+    place-items: center;
+}
+
+
+#value{
+    font-size: 100px;
+    font-weight: bolder;
+    color: #102A42;
+}
+
+#headerCounter{
+    font-size: 60px;
+    color: #102A42;
+    letter-spacing: 2px;
+}
+
+.value{
+    margin-bottom: 15px;
+}
+
+.button span{
+    font-size: 15px;
+    border: 2px solid #232323;
+    padding: 5px 8px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    color: #102A42;
+}
+
+.button span:hover{
+    background-color: #232323;
+    color: aliceblue;
+}
